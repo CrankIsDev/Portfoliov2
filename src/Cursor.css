@@ -16,7 +16,7 @@
   z-index: 999;
 }
 .cursor:nth-child(2) {
-  background-color: #000;
+  background-color: #fff;
   z-index: 999;
   height: 8px;
   width: 8px;
