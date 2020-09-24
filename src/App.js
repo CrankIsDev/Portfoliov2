@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './Header.js';
 import Cursor from './Cursor.js';
+import Project from './Project.js';
 
 class App extends Component {
   
@@ -10,6 +11,7 @@ class App extends Component {
       <div>
         <Cursor />
         <Header />
+        <Project />
       </div>
     );
   }
