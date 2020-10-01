@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Header.css';
-import Paint from './Paint.js';
+import Paint from '../paint/Paint.js';
 
 class Header extends Component {
   render() {
@@ -14,7 +14,7 @@ class Header extends Component {
       </div>
       <Paint />
         <header className="hero">
-         <h1><span>S</span><span>t</span><span>a</span><span>n</span></h1>
+         <h1 data-text="Stan">Stan</h1>
           <p>
              <span className="h">Based near Paris</span>
              <span className="h">Junior Front-End Developer</span>

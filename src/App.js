@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './Header.js';
-import Cursor from './Cursor.js';
-import Project from './Project.js';
+import Header from './components/header/Header.js';
+import Cursor from './components/cursor/Cursor.js';
+import Project from './components/project/Project.js';
 
 class App extends Component {
   
